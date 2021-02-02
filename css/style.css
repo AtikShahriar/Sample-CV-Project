@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(236, 202, 202);
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+   max-width: 1000px;
+   margin: 0 auto;
+   background-color: teal;
+   padding: 15px;
+}
+
+/* header start */
+.header{
+
+}
+
+.rawin-image{
+    height: 100px;
+    width: 100px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float:left;
+    
+}
+
+.header-bio{
+   float: left;
+   padding: 20px;
+}
+
+.header-bio h1:hover{
+    color: rgb(139, 54, 68);
+}
+
+.header-bio p:hover{
+    color: rgb(226, 197, 135);
+}
+
+.header-contact{
+    float: right;
+    padding: 30px;
+    
+}
+
+.header-contact a{
+    text-decoration: none;
+    color: rgb(218, 165, 165);
+    
+}
+
+.header-contact a:hover{
+    color: tomato;
+    text-decoration: underline;
+}
+
+/* header end */
+
+
+/* div clear */
+.div-clear{
+    clear: both;
+}
+/* div clear */
+
+hr{
+    border: 2px solid rgb(238, 177, 136);
+    margin: 20px auto;
+    width: 100%;
+    border-bottom: none;
+}
+
+/* main section start */
+
+/* personal section start */
+#personal{
+
+}
+.content{
+    
+}
+
+.left-div{
+       width: 55%;
+       float: left;
+}
+.left-div h1{
+text-decoration: underline;
+}
+
+.left-div h1:hover{
+    color: rgb(135, 146, 153);
+    text-decoration: none;
+}
+
+.right-div{
+          width: 45%;
+          float: left;
+}
+
+
+.common-hr{
+    border: solid black 1px;
+    margin: 20px auto;
+    width: 100%;
+    border-bottom: none;
+}
+
+/* personal section end */
+
+/* education section start */
+
+#education{
+
+}
+.left-div-education{
+    width: 30%;
+    float: left;
+}
+
+.left-div-education h1{
+    text-decoration: underline;
+}
+.left-div-education h1:hover{
+    color: rgb(135, 146, 153);
+    text-decoration: none;
+}
+.right-div-education{
+    width: 70%;
+    float: left;
+}
+.right-div-ssc{
+    width: 45%;
+    float: left;
+}
+
+.right-div-hsc{
+    width: 40%;
+    float: right;
+}
+.top-right-div-bsc{
+    margin-left: 300px;
+}
+
+/* education section end */
+
+/* skill section start */
+#skill{
+
+}
+.skill-part{
+
+}
+.skill-left-div{
+    width: 30%;
+    float: left;
+}
+
+.skill-left-div h1{
+    text-decoration: underline;
+}
+
+.skill-left-div h1:hover{
+    color: rgb(135, 146, 153);
+    text-decoration: none;
+}
+
+.skill-right-div{
+    width: 70%;
+    float: left;
+    
+}
+
+.skill-right-div ul{
+
+}
+.skill-right-div ul li{
+    margin-left: 20px;
+}
+
+.skill-right-div-down{
+    margin-left: 304px;
+}
+.skill-right-div-down ul{
+
+}
+
+.skill-right-div-down ul li{
+    margin-left: 15px;
+}
+
+/* skill section end */
+
+/* footer part start */
+
+.bottom-container{
+    background: black;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+
+
+.bottom-container a{
+    color: rgb(98, 182, 231);
+    text-decoration: none;
+}
+.bottom-container p{
+    color: white;
+}
+.bottom-container a:hover{
+    color: rgb(172, 142, 156);
+}
+
+
+
